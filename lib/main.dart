@@ -26,6 +26,8 @@ initialRoute: '/',
   GetPage(     name: '/',  page: () => Loginpage(),  ),
           GetPage(name: '/', page: () => Signin()),
         GetPage(name: '/otp', page: () => OtpPage()),
+
+        
     GetPage(name: '/home', page: () => Homepage()),
 
 
