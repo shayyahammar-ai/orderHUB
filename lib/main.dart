@@ -43,4 +43,3 @@ initialRoute: '/',
     );
   }
 }
-
