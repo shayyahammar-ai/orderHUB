@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
 initialRoute: '/',
 
-
+// test ammar
       getPages: [
   GetPage(     name: '/',  page: () => Loginpage(),  ),
           GetPage(name: '/', page: () => Signin()),
