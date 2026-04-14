@@ -80,7 +80,9 @@ Padding(
 SizedBox(height: 10,),
 SizedBox(height: 10,),
 
-Siz
+
+SizedBox(height: 20,),
+
 
    Align(
                 //  alignment: Alignment.centerRight,
