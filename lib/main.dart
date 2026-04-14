@@ -18,6 +18,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
 initialRoute: '/',
+
+
       getPages: [
   GetPage(     name: '/',  page: () => Loginpage(),  ),
           GetPage(name: '/', page: () => Signin()),
