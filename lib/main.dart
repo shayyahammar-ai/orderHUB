@@ -13,34 +13,23 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-
-// test
+  // test
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-initialRoute: '/',
+      initialRoute: '/',
 
-// test ammar
+      // test ammar
       getPages: [
-  GetPage(     name: '/',  page: () => Loginpage(),  ),
-          GetPage(name: '/', page: () => Signin()),
+        GetPage(name: '/', page: () => Loginpage()),
+        GetPage(name: '/', page: () => Signin()),
         GetPage(name: '/otp', page: () => OtpPage()),
 
-        
-    GetPage(name: '/home', page: () => Homepage()),
-
-
-
-
-
-      ]
-
-
-
-
-
+        GetPage(name: '/home', page: () => Homepage()),
+      ],
     );
   }
 }
+
 // add comm line 466
